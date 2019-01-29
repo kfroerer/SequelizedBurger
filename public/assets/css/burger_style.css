@@ -1,0 +1,67 @@
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 50%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    text-align: center;
+    background-color: white;
+    opacity: .75
+}
+h1 {
+    font-size: 3.0rem;
+}
+.container {
+    margin: auto;
+    margin-top: 5%
+}
+
+#notDevoured {
+    align-content: center;
+    line-height: 2.5rem;
+    margin-bottom: 2%;
+    width: 40%;
+    color: white;
+
+}
+
+#devoured {
+    align-content: center;
+}
+
+#addBurger {
+    align-content: center;
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+body {
+    background-color: darkslategray;
+}
+
+.row {
+    margin-bottom: 5%;
+}
+
+#form-container {
+    text-align: center
+}
+
+.devoured {
+    margin-left: 10%
+}
+
+.notDevoured {
+    margin-right: 40%;
+    padding-left: 7%;
+    display: inline-block;
+    width: 44%;
+ 
+}
+
+.button {
+    margin-bottom: 2%;   
+}
