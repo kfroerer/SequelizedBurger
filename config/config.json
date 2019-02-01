@@ -16,7 +16,7 @@
   "production": {
     "username": "tw73o76uy858ixr7",
     "password": "zhf6kurshk91o3k8",
-    "database": "",
+    "database": "sequelizeBurgers",
     "host": "tj5iv8piornf713y.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   }

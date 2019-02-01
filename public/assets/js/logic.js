@@ -1,13 +1,12 @@
-console.log("yo");
 
 
 $(document).ready(function(){
     $('.devour-burger').on("click", function(event){
         event.preventDefault();
         console.log("clicked");
-        var data = $(this).attr('data-id');
         var newDevouredState = {
-            id: data,
+            name: $(this).attr('data-name'),
+            id: $(this).attr('data-id'),
             devoured: 1,
         }
         console.log(data);

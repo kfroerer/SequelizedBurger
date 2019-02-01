@@ -1,3 +1,4 @@
+var sequelize = require('sequelize');
 module.exports = function (sequelize, DataTypes){
     var Burger = sequelize.define("burgers", {
         burger_name: DataTypes.STRING,

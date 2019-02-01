@@ -4,30 +4,33 @@ var db = require('../models');
 module.exports = function (router){
 
 router.get("/", function(request, response){
-   db.findAll({}).then(function(dbburgers){
-       response.json(dbburgers);
+   db.findAll({}).then(function(result){
+       response.json(result);
    })
 });
+
 router.post("/api/burgers/", function(request, response){
     console.log(request.body);
     db.burgers.create({
-        burger_name: request.body.burger_name,
+        burger_name: request.body.text,
         devoured: false
-    }).then(function(dbburgers){
-        response.json(dbburgers)
+    }).then(function(result){
+        response.json(result)
     })
 });
 
 router.put("/api/burgers/", function(request, response){
-    db.burgers.update({
-        text: request.body.burger_name,
+    console.log(request.body)
+    db.burgers.update(
+        {
+        text: request.body.name,
         devoured: true},
         {
         where: {
             id: request.body.id
         }
-    }).then(function(dbburgers){
-        response.json(dbburgers);
+    }).then(function(result){
+        response.json(result);
     });
 });
 
