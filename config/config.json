@@ -2,8 +2,8 @@
   "development": {
     "username": "root",
     "password": "root",
-    "database": "sequelizeBurgers",
-    "host": "127.0.0.1",
+    "database": "sequelizeBurgers_db",
+    "host": "localhost",
     "dialect": "mysql"
   },
   "test": {
@@ -16,7 +16,7 @@
   "production": {
     "username": "tw73o76uy858ixr7",
     "password": "zhf6kurshk91o3k8",
-    "database": "sequelizeBurgers",
+    "database": "sequelizeBurgers_db",
     "host": "tj5iv8piornf713y.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   }
